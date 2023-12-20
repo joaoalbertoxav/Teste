@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h2><b>Formulário De Cadastro</b></h2><hr>
+
+    <fieldset>
+        <legend><b> Dados Pessoais </b></legend>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="digite seu nome"><br><br>
+<form>
+        <label for="Sexo">Sexo:</label>
+
+        <label for="Masculino">Masculino</label>
+        <input type="radio" nome="um" value="Masculino">
+
+        <label for="Feminino">Feminino</label>
+        <input type="radio" nome="um" value="Feminino">
+        <input type="submit" value="Reset"><br><br>
+</form>
+
+    <label for="Estado Civil">Estado Civil:</label>
+    <select>
+        <option value="Casado">Casado</option>
+        <option value="Solteiro">Solteiro</option>
+        <option value="Viúvo">Viúvo</option>
+    </select> <br><hr>
+
+    <h4><b> Conhecimento Em Informática:</b></h4>
+    <input type="checkbox">
+    <label for="windows">windows</label>
+
+    <input type="checkbox">
+    <label for="word">Word</label>
+
+    <input type="checkbox">
+    <label for="Excel">Excel</label><br>
+
+    <input type="checkbox">
+    <label for="Pp">PowerPoint</label>
+
+    <input type="checkbox">
+    <label for="Access">Access</label>
+
+    <input type="checkbox">
+    <label for="Internet">Internet</label><br><br>
+
+    <b>Conte um pouco sobre você.</b><br>
+       <textarea rows="5" cols="100" placeholder="Digite Aqui"></textarea>
+    </fieldset><br>
+
+    <fieldset>
+        <legend> <b> Dados Pessoais </b></legend>
+
+        <label for="Email">Email:</label>
+        <input type="email" id="email" placeholder="Digite Seu Email"><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password">
+    </fieldset><br>
+
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Limpar">
+
+</body>
+</html>
